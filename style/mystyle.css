@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Mandali&family=Literata");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 672px;
+  position: relative;
+  background-color: #3072c6;
+}
+.center {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  line-height: 55px;
+  color: white;
+  font-family: "Mandali", serif;
+  font-size: 32px;
+  padding: 1em;
+}
+.animated-text p span {
+  color: red;
+}
